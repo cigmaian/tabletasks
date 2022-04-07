@@ -1,0 +1,23 @@
+[
+
+  { "id": 1, "firstName": "Frank", "lastName": "Castle", "age": 30 },
+
+  { "id": 2, "firstName": "Peter", "lastName": "Parker", "age": 20 },
+
+  { "id": 3, "firstName": "John", "lastName": "Smith", "age": 25 },
+
+  { "id": 4, "firstName": "Jack", "lastName": "The reaper", "age": 100 },
+
+  { "id": 5, "firstName": "Jackson", "lastName": "Smith", "age": 28 },
+
+  { "id": 6, "firstName": "Tyson", "lastName": "Fury", "age": 30 },
+
+  { "id": 7, "firstName": "Tony", "lastName": "Stark", "age": 38 },
+
+  { "id": 8, "firstName": "Steve", "lastName": "Rogers", "age": 120 },
+
+  { "id": 9, "firstName": "Steven", "lastName": "Seagal", "age": 60 },
+
+  { "id": 10, "firstName": "Johnny", "lastName": "Depp", "age": 60 }
+
+]

@@ -1,0 +1,186 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+
+
+button:focus {
+	/* Provide a fallback style for browsers
+	 that don't support :focus-visible */
+	outline: none;
+}
+
+
+button:focus-visible {
+	/* Draw a very noticeable focus style for
+	 keyboard-focus on browsers that do support
+	 :focus-visible */
+	outline: 2px solid #443ffc;
+	outline-offset: 3px;
+}
+
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.button--hyperion {
+	font-family: input-mono-narrow, monospace;
+	font-weight: 500;
+	padding: 1rem 1.5rem;
+	border: 1px solid #000;
+	overflow: hidden;
+	color: #fff;
+}
+
+.button--hyperion span {
+	display: block;
+	position: relative;
+}
+
+.button--hyperion > span {
+	overflow: hidden;
+}
+
+.button--hyperion > span > span {
+	overflow: hidden;
+	mix-blend-mode: difference;
+}
+
+.button--hyperion:hover > span > span {
+	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+@keyframes MoveUpInitial {
+	to {
+		transform: translate3d(0,-105%,0);
+	}
+}
+
+@keyframes MoveUpEnd {
+	from {
+		transform: translate3d(0,100%,0);
+	}
+	to {
+		transform: translate3d(0,0,0);
+	}
+}
+
+.button--hyperion::before {
+	content: '';
+	background: #000;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	transform-origin: 100% 50%;
+}
+
+.button--hyperion:hover::before {
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+}
+
+
+.search-wrapper {
+  float: right;
+  height: 80%;
+  position: relative;
+  margin: 2.5rem 3.5rem 2.5rem 0;
+}
+
+.submit-btn {
+  position: absolute;
+  top: 27%;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.fa-search {
+  color: #000;
+  font-size: 1.8rem;
+}
+
+.search-wrapper input[type='text'] {
+  width: 24rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 0 0.3rem 4.5rem;
+  color: #000;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+input[type='text']::placeholder {
+  color: #000;
+}
+
+form input[type='text']::placeholder {
+  color: #000;
+}
+
+form input[type='text'] 
+	 {
+	
+
+}
