@@ -1,3 +1,9 @@
+  //
+     I was trying to implement the search bar in the 1st table, but I couldn't make it work with property with the other features of the app. So, in the end, I took the safe and easy route and I create another table iteration only with the search bar feature.
+     This was one of my first relatively more complex apps developed in React so I learned a lot, I enjoyed the challenge.   
+
+
+
 Tasks: 
 
 1. Create a table from the data attached to the challenge, feel free to use the <table><table/> html tags, or any other html structure you find appropriate.
@@ -25,11 +31,7 @@ Tasks:
     - The table should only be able to get back to the initial state after page refresh
 
   
-  //
-     I was trying to implement the search bar in the 1st table, but I couldn't make it work with property with the other features of the app. So, in the end, I took the safe and easy route and I create another table iteration only with the search bar feature.
-     This was one of my first relatively more complex apps developed in React so I learned a lot, I enjoyed the challenge.   
-  
-  
+
 
 
 # Getting Started with Create React App
