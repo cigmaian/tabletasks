@@ -1,3 +1,37 @@
+Tasks: 
+
+1. Create a table from the data attached to the challenge, feel free to use the <table><table/> html tags, or any other html structure you find appropriate.
+
+2. Create a text input that will filter the existing results of the table
+
+    - The filter action should search in the first name or last name of the user
+
+    - The filter action should be triggered when the user presses the “Enter” key
+
+    - The filter should work with a partial match, meaning that for the user input “jack” it will match both the following “jack” and “jackson”
+
+    - The filter should be case insensitive, meaning that for the user input “eugene” it should match both the following “EUGENE” and “EuGeNe”
+
+3. Create an ability to edit a user in the table
+
+    - Each user row should have an “edit” button, that will allow me to edit the user in a form
+
+    - I should be able to cancel the editing, going back to the initial value
+
+4. Create the ability to delete  a user
+
+    - Each user row should have a “delete” button, that will allow me to delete a user from the table
+
+    - The table should only be able to get back to the initial state after page refresh
+
+  
+  //
+     I was trying to implement the search bar in the 1st table, but I couldn't make it work with property with the other features of the app. So, in the end, I took the safe and easy route and I create another table iteration only with the search bar feature.
+     This was one of my first relatively more complex apps developed in React so I learned a lot, I enjoyed the challenge.   
+  
+  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
